@@ -33,8 +33,7 @@ class SendForumViewController: UIViewController, Sender {
     }
     
     @IBAction func SendForum(_ sender: Any) {
-        self.forumToSend.forum = forum
-        self.forumToSend.author_id = pseudo
+        self.forumToSend = Forum(forum.text!, pseudo)
         //sendForum est une methode de l'objet parent Sender qui s'occupe des requêtes et actualise la view
         self.sendForum(forum: self.forumtoSend, modif: modif)
         //je renvoie vers la sortie, la view est normalement actualisée

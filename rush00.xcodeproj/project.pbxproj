@@ -10,6 +10,7 @@
 		465BA4A4200A96F200C39126 /* SendMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465BA4A3200A96F200C39126 /* SendMessageViewController.swift */; };
 		465BA4A6200ABD4E00C39126 /* Sender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465BA4A5200ABD4E00C39126 /* Sender.swift */; };
 		465BA4A8200ACED500C39126 /* SendForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465BA4A7200ACED500C39126 /* SendForumViewController.swift */; };
+		465BA4AC200B6C0F00C39126 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465BA4AB200B6C0F00C39126 /* Structs.swift */; };
 		9E022CE22009F99B00BB43E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E022CE12009F99B00BB43E3 /* AppDelegate.swift */; };
 		9E022CE42009F99B00BB43E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E022CE32009F99B00BB43E3 /* ViewController.swift */; };
 		9E022CE72009F99B00BB43E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E022CE52009F99B00BB43E3 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		465BA4A3200A96F200C39126 /* SendMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageViewController.swift; sourceTree = "<group>"; };
 		465BA4A5200ABD4E00C39126 /* Sender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sender.swift; sourceTree = "<group>"; };
 		465BA4A7200ACED500C39126 /* SendForumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendForumViewController.swift; sourceTree = "<group>"; };
+		465BA4AB200B6C0F00C39126 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
 		9E022CDE2009F99B00BB43E3 /* rush00.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rush00.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E022CE12009F99B00BB43E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E022CE32009F99B00BB43E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				9E022CE32009F99B00BB43E3 /* ViewController.swift */,
 				465BA4A3200A96F200C39126 /* SendMessageViewController.swift */,
 				9E022CE52009F99B00BB43E3 /* Main.storyboard */,
+				465BA4AB200B6C0F00C39126 /* Structs.swift */,
 				465BA4A7200ACED500C39126 /* SendForumViewController.swift */,
 				465BA4A5200ABD4E00C39126 /* Sender.swift */,
 				9E022CE82009F99B00BB43E3 /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				465BA4AC200B6C0F00C39126 /* Structs.swift in Sources */,
 				465BA4A6200ABD4E00C39126 /* Sender.swift in Sources */,
 				9E022CE42009F99B00BB43E3 /* ViewController.swift in Sources */,
 				465BA4A8200ACED500C39126 /* SendForumViewController.swift in Sources */,
